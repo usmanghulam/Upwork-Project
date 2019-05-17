@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);.hero {
+  background-color: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .hero .hero-title {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: bolder; }
+  .hero .btn-hero {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    transition: .5s;
+    background-color: #34495e;
+    border-radius: 15px; }
+    .hero .btn-hero:hover {
+      letter-spacing: 2px; }
+
+.services .services-title, .testimonial .testimonial-title {
+  text-align: center; }
+  .services .services-title .heading, .testimonial .testimonial-title .heading {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    color: #34495e; }
+  .services .services-title p, .testimonial .testimonial-title p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-weight: 400; }
+
+.services .services-group, .testimonial .testimonials-grounp {
+  width: 80%;
+  margin: 0px auto;
+  padding: 50px 0px; }
+
+.services .services-group .services-item {
+  display: inline-block;
+  width: 29%;
+  margin: 0px 2%;
+  cursor: pointer; }
+  .services .services-group .services-item .icon-round {
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    background-color: #34495e;
+    cursor: pointer;
+    transition: 0.5s; }
+    .services .services-group .services-item .icon-round i {
+      transition: 0.5s;
+      font-size: 40px;
+      margin: 30px auto; }
+  .services .services-group .services-item .services-name {
+    text-align: center; }
+    .services .services-group .services-item .services-name h2 {
+      color: #34495e; }
+  .services .services-group .services-item:hover .icon-round {
+    background-color: #fff;
+    border: 2px solid #34495e; }
+    .services .services-group .services-item:hover .icon-round i {
+      color: #34495e;
+      transform: rotate(360deg); }
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  background-color: #34495e;
+  box-shadow: 8px 5px 50px 5px #34495e;
+  display: flex;
+  align-items: center; }
+  .navbar .logo {
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: bolder; }
+  .navbar .nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-basis: 50%; }
+    .navbar .nav-right .nav {
+      list-style: none;
+      display: flex;
+      flex-basis: 100%;
+      justify-content: space-evenly; }
+      .navbar .nav-right .nav .nav-items {
+        padding: 10px;
+        cursor: pointer;
+        transition: 8.5s; }
+        .navbar .nav-right .nav .nav-items .link {
+          color: #fff;
+          text-decoration: none; }
+        .navbar .nav-right .nav .nav-items:hover {
+          letter-spacing: 3px;
+          font-weight: bolder; }
+        .navbar .nav-right .nav .nav-items::after {
+          border: 1px solid rgba(255, 255, 255, 0);
+          bottom: 0px;
+          content: '';
+          display: block;
+          margin: 5px auto;
+          position: relative;
+          transition: all 200ms ease-in-out;
+          width: 0; }
+        .navbar .nav-right .nav .nav-items:hover:after {
+          border-color: #fff;
+          text-align: center;
+          transition: width 350ms ease-in-out;
+          width: 100%; }
+
+.testimonial {
+  height: 100vh !important;
+  background-color: #2080b9; }
+  .testimonial .testimonial-title .heading {
+    color: #fff; }
+  .testimonial .testimonial-title p {
+    color: #fff;
+    margin-bottom: 0px; }
+  .testimonial .testimonials-grounp .right-arrow, .testimonial .testimonials-grounp .left-arrow {
+    width: 10%;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    cursor: pointer; }
+    .testimonial .testimonials-grounp .right-arrow i, .testimonial .testimonials-grounp .left-arrow i {
+      font-size: 50px;
+      color: #fff; }
+    .testimonial .testimonials-grounp .right-arrow:hover i, .testimonial .testimonials-grounp .left-arrow:hover i {
+      transition: 0.5s;
+      color: #34495e; }
+  .testimonial .testimonials-grounp .testimonials-main {
+    display: inline-block;
+    position: relative;
+    width: 60%; }
+    .testimonial .testimonials-grounp .testimonials-main .testimonials-item {
+      text-align: center;
+      display: inline-block;
+      width: 100%; }
+      .testimonial .testimonials-grounp .testimonials-main .testimonials-item .image-circle {
+        border-radius: 100%;
+        border: 2px solid #fff;
+        margin: 0px auto;
+        width: 120px;
+        height: 120px; }
+        .testimonial .testimonials-grounp .testimonials-main .testimonials-item .image-circle img {
+          width: 100%;
+          height: 100%;
+          border-radius: 100%; }
+      .testimonial .testimonials-grounp .testimonials-main .testimonials-item .testimonials-text {
+        padding-top: 50px;
+        color: #fff; }
+  .testimonial .testimonials-circles {
+    width: 100%; }
+    .testimonial .testimonials-circles .circles-center {
+      margin: 0 auto;
+      width: 75px; }
+      .testimonial .testimonials-circles .circles-center .circle {
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        margin: 0px 2px;
+        border: 3px solid #fff;
+        cursor: pointer; }
+        .testimonial .testimonials-circles .circles-center .circle:hover {
+          background-color: #fff;
+          color: #34495e;
+          transition: 0.5s;
+          border-color: #34495e; }
+
+body {
+  margin: 8px;
+  padding: 0px;
+  font-family: "Noto Sans", sans-serif; }
+
+.section {
+  height: 85vh;
+  padding-top: 50px; }
+
+/*# sourceMappingURL=styles.css.map*/
